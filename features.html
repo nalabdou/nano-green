@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nano Green - bulma Template For Software Projects</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="bulma Template For Software Startups" />
+    <meta name="author" content="nalabdou" />
+    <link rel="shortcut icon" href="favicon.ico" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet" />
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="assets/plugins/tiny-slider/tiny-slider.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.2/styles/atom-one-dark.min.css" />
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/bulma.min.css" />
+
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css" />
+</head>
+
+<body>
+    <header class="header mx-0">
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="assets/images/site-logo.svg" width="112" height="28" />
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="features.html">Features</a>
+                    <a class="navbar-item" href="pricing.html">Pricing</a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Docs
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item dropdown-item has-icon" href="docs.html">
+                                <span class="theme-icon-holder">
+                                    <i class="fas fa-home fa-fw"></i>
+                                </span>
+                                Docs Home
+                            </a>
+
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-1">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-map-signs fa-fw"></i> </span>Introduction
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-2">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-arrow-down fa-fw"></i> </span>Installation
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-3">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-box fa-fw"></i> </span>APIs
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-4">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-cogs fa-fw"></i> </span>Integrations
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-5">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-tools fa-fw"></i> </span>Utilities
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-6">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-laptop-code fa-fw"></i> </span>Web
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-7">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-tablet-alt fa-fw"></i> </span>Mobile
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-8">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-book-reader fa-fw"></i> </span>Resources
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-9">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-lightbulb fa-fw"></i> </span>FAQs
+                            </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="contact.html">Contact</a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="signup.html">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light" href="login.html">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="page-header theme-bg-dark py-5 has-text-centered position-relative">
+        <div class="theme-bg-shapes-right"></div>
+        <div class="theme-bg-shapes-left"></div>
+        <div class="container">
+            <h1 class="page-heading single-col-max mx-auto">
+                Launch Better. Get Attention Faster.
+            </h1>
+            <div class="page-intro single-col-max mx-auto">
+                Every project covered - JavaScript library, jQuery plugin,
+                CMS plugin, browser extension, mobile app, open source
+                project and many more...
+            </div>
+        </div>
+    </div>
+    <!--//page-header-->
+
+    <div class="page-content py-5">
+        <div class="container ">
+            <ul class="features-tab columns is-centered" id="features-tab" role="tablist">
+                <li class="column is-12-mobile is-4-tablet is-4-desktop has-text-centered my-5">
+                    <a class="nav-link active" id="feature-tab-1" data-toggle="tab" href="#feature-1" role="tab"
+                        aria-controls="feature-1" aria-selected="true"><i
+                            class="fas fa-shapes mr-2 d-none d-lg-inline-block"></i><span>Features 1
+                            <small class="d-none d-lg-inline font-weight-normal">(Ziagzag Layout)</small></span></a>
+                </li>
+                <li class="column is-12-mobile is-4-tablet is-4-desktop has-text-centered my-5">
+                    <a class="nav-link" id="feature-tab-2" data-toggle="tab" href="#feature-2" role="tab"
+                        aria-controls="feature-2" aria-selected="false"><i
+                            class="fas fa-laptop-code mr-2 d-none d-lg-inline-block"></i>Features 2
+                        <small class="d-none d-lg-inline font-weight-normal">(Umbrella Layout)</small></a>
+                </li>
+                <li class="column is-12-mobile is-4-tablet is-4-desktop has-text-centered my-5">
+                    <a class="nav-link" id="feature-tab-3" data-toggle="tab" href="#feature-3" role="tab"
+                        aria-controls="feature-3" aria-selected="false"><i
+                            class="fas fa-laptop-code mr-2 d-none d-lg-inline-block"></i>Features 3
+                        <small class="d-none d-lg-inline font-weight-normal">(Carousel Layout)</small></a>
+                </li>
+            </ul>
+        </div>
+        <!--//container-fluid-->
+        <div class="container is-fluid">
+            <div>
+                <div class="feature-1-pane tab-pane is-in show is-active py-5" id="feature-1" role="tabpanel"
+                    aria-labelledby="feature-tab-1">
+                    <div class="zigzag-layout">
+                        <div class="item py-5 mb-5">
+                            <div class="columns">
+                                <div class="column is-12 is-5-tablet is-5-desktop mb-5 mb-0">
+                                    <div class="content pr-5">
+                                        <h3 class="heading">
+                                            Image Example
+                                        </h3>
+                                        <div class="desc px-3">
+                                            <p>
+                                                You can take screenshots of
+                                                your software and showcase
+                                                each features.
+                                            </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet,
+                                                consectetuer adipiscing
+                                                elit. Aenean commodo ligula
+                                                eget dolor. Aenean massa.
+                                                Cum sociis natoque penatibus
+                                                et magnis dis parturient
+                                                montes, nascetur ridiculus
+                                                mus.
+                                            </p>
+                                            <div class="tech-icons mb-3">
+                                                <i class="fab fa-js-square mr-2"></i>
+                                                <i class="fab fa-bootstrap mr-2"></i>
+                                                <i class="fab fa-html5 mr-2"></i>
+                                                <i class="fab fa-sass mr-2"></i>
+                                                <i class="fab fa-sketch"></i>
+                                            </div>
+                                            <!--//tech-icons-->
+
+                                            <div class="cta-link">
+                                                <a class="button is-light" href="#">View Docs<i
+                                                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+                                            </div>
+                                        </div>
+                                        <!--//desc-->
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                                <div class="column is-12 is-7-tablet is-7-desktop">
+                                    <div class="content-figure">
+                                        <figure class="figure">
+                                            <img class="is-rounded shadow-sm image is-rounded"
+                                                src="assets/images/features/hesta.png" alt="" />
+
+                                            <figcaption class="figure-caption mt-4 has-text-centered has-text-light">
+                                                Credit: the above screenshot
+                                                is taken from
+                                                <a class="theme-link" href="https://fr.wordpress.org/themes/hestia/"
+                                                    target="_blank"><i class="fas fa-external-link-alt mx-1"></i>hestia
+                                                    theme</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                            </div>
+                            <!--//row-->
+                        </div>
+                        <!--//item-->
+
+                        <div class="item py-5 mb-5">
+                            <div class="columns">
+                                <div class="column is-12 is-5-tablet is-5-desktop order-md-1 pl-md-5 mb-5 mb-md-0">
+                                    <div class="content">
+                                        <h3 class="heading">
+                                            Screencast Example
+                                        </h3>
+                                        <div class="desc">
+                                            <p>
+                                                You can use a screen
+                                                recording software to create
+                                                screencasts (in gif/video
+                                                format) to showcase your
+                                                software features. Here is a
+                                                list of the
+                                                <a href="#"><i class="fas fa-external-link-alt"></i>
+                                                    best screen recording
+                                                    softwares</a>
+                                            </p>
+                                            <ul class="py-3 mb-0 list-0">
+                                                <li class="mb-3">
+                                                    <span class="theme-icon-holder mr-2"><i
+                                                            class="fas fa-check"></i></span>List item lorem ipsum
+                                                </li>
+                                                <li class="mb-3">
+                                                    <span class="theme-icon-holder mr-2"><i
+                                                            class="fas fa-check"></i></span>List item donec pede
+                                                    justo,
+                                                </li>
+                                                <li class="mb-3">
+                                                    <span class="theme-icon-holder mr-2"><i
+                                                            class="fas fa-check"></i></span>List item ullamcorper
+                                                    ultricies nisi
+                                                </li>
+                                            </ul>
+                                            <div class="tech-icons mb-3">
+                                                <i class="fab fa-cc-paypal mr-2"></i>
+                                                <i class="fab fa-cc-apple-pay mr-2"></i>
+                                                <i class="fab fa-cc-stripe"></i>
+                                            </div>
+                                            <!--//tech-icons-->
+
+                                            <div class="cta-link">
+                                                <a class="button is-light" href="#">View Docs<i
+                                                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+                                            </div>
+                                        </div>
+                                        <!--//desc-->
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                                <div class="column is-12 is-7-tablet is-7-desktop order-md-0">
+                                    <div class="content-figure">
+                                        <figure class="figure">
+                                            <img class="is-rounded shadow-sm image"
+                                                src="assets/images/features/hesta.png" alt="" />
+                                            <figcaption class="figure-caption mt-4 has-text-centered has-text-light">
+                                                Credit: this screencast is
+                                                taken from
+                                                <a class="theme-link" href="https://fr.wordpress.org/themes/hestia/"
+                                                    target="_blank"><i class="fas fa-external-link-alt mx-1"></i>hestia
+                                                    theme</a>
+                                            </figcaption>
+                                        </figure>
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                            </div>
+                            <!--//row-->
+                        </div>
+                        <!--//item-->
+
+                        <div class="item py-5 mb-5">
+                            <div class="columns">
+                                <div class="column is-12 is-7-tablet is-7-desktop">
+                                    <div class="content-figure">
+                                        <div class="embed-responsive embed-responsive-16by9">
+                                            <iframe class="embed-responsive-item"
+                                                src="https://www.youtube.com/embed/u21W_tfPVrY" frameborder="0"
+                                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                                allowfullscreen></iframe>
+                                        </div>
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                                <div class="column is-12 is-5-tablet is-5-desktop mb-5 mb-md-0">
+                                    <div class="content pr-5">
+                                        <h3 class="heading">
+                                            Video Example
+                                        </h3>
+                                        <div class="desc">
+                                            <p>
+                                                You can embed Youtube video
+                                                as well.
+                                            </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet,
+                                                consectetuer adipiscing
+                                                elit. Aenean commodo ligula
+                                                eget dolor. Aenean massa.
+                                                Cum sociis natoque penatibus
+                                                et magnis dis parturient
+                                                montes, nascetur ridiculus
+                                                mus.
+                                            </p>
+
+                                            <div class="tech-icons mb-3">
+                                                <i class="fab fa-python mr-2"></i>
+                                                <i class="fab fa-github mr-2"></i>
+                                                <i class="fab fa-chrome mr-2"></i>
+                                                <i class="fab fa-firefox"></i>
+                                            </div>
+                                            <!--//tech-icons-->
+
+                                            <div class="cta-link">
+                                                <a class="button is-light" href="#">View Docs<i
+                                                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+                                            </div>
+                                        </div>
+                                        <!--//desc-->
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                            </div>
+                            <!--//row-->
+                        </div>
+                        <!--//item-->
+
+                        <div class="item py-5">
+                            <div class="columns">
+                                <div class="column is-12 is-5-tablet is-5-desktop order-md-1 mb-5 mb-md-0">
+                                    <div class="content pl-md-5">
+                                        <h3 class="heading">
+                                            Github Code Snippet
+                                        </h3>
+                                        <div class="desc">
+                                            <p>
+                                                You can use
+                                                <a href="https://gist.github.com/" target="_blank">Github Gist</a>
+                                                to display code snippets.
+                                            </p>
+                                            <p>
+                                                Lorem ipsum dolor sit amet,
+                                                consectetuer adipiscing
+                                                elit. Aenean commodo ligula
+                                                eget dolor. Aenean massa.
+                                                Cum sociis natoque penatibus
+                                                et magnis dis parturient
+                                                montes, nascetur ridiculus
+                                                mus.
+                                            </p>
+                                            <div class="tech-icons mb-3">
+                                                <i class="fab fa-angular mr-2"></i>
+                                                <i class="fab fa-react mr-2"></i>
+                                                <i class="fab fa-vuejs mr-2"></i>
+                                                <i class="fab fa-grunt mr-2"></i>
+                                                <i class="fab fa-gulp"></i>
+                                            </div>
+                                            <!--//tech-icons-->
+
+                                            <div class="cta-link">
+                                                <a class="button is-light" href="#">View Docs<i
+                                                        class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+                                            </div>
+                                        </div>
+                                        <!--//desc-->
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                                <div class="column is-12 is-7-tablet is-7-desktop order-md-0">
+                                    <div class="content-figure">
+                                        <!-- ** Embed github code starts ** -->
+                                        <script
+                                            src="https://gist.github.com/nalabdou/1e0762f893db4f4c16791f2003b4cb49.js">
+                                        </script>
+                                        <!-- ** Embed github code ends ** -->
+                                    </div>
+                                    <!--//content-->
+                                </div>
+                                <!--//col-->
+                            </div>
+                            <!--//row-->
+                        </div>
+                        <!--//item-->
+                    </div>
+                    <!--//row-->
+                </div>
+                <!--//feature-1-pane-->
+                <div class="is-hidden tab-pane is-in py-5" id="feature-2" role="tabpanel"
+                    aria-labelledby="feature-tab-2">
+                    <div class="umbrella-layout">
+                        <div class="item pb-5 mt-4 pt-2">
+                            <h3 class="heading has-text-centered mb-4">
+                                Screencast Example
+                            </h3>
+                            <!--//item-intro-->
+                            <div class="item-figure has-text-centered mb-5">
+                                <figure class="figure has-text-centered">
+                                    <img class="figure-image img-fluid is-rounded mx-auto shadow-sm mb-4"
+                                        src="assets/images/nalabdou.gif" alt="" />
+                                    <figcaption class="figure-caption has-text-centered">
+                                        Credit: the above screencast is from
+                                        <a class="theme-link" href="https://nalabdou.com" target="_blank"><i
+                                                class="fas fa-external-link-alt mx-1"></i>nalabdou site</a>
+                                    </figcaption>
+                                </figure>
+                            </div>
+                            <div class="item-content">
+                                <div class="columns">
+                                    <div class="column is-12 is-4-desktop is-4-tablet mb-5 mb-lg-0">
+                                        <div class="card shadow-sm">
+                                            <div class="card-content px-3 py-3 p-lg-5">
+                                                <h5 class="title">
+                                                    Subheading One
+                                                </h5>
+                                                <p class="content">
+                                                    Lorem ipsum dolor sit
+                                                    amet, consectetuer
+                                                    adipiscing elit. Aenean
+                                                    commodo ligula eget
+                                                    dolor. Aenean massa. Cum
+                                                    sociis natoque penatibus
+                                                    et magnis dis parturient
+                                                    montes, nascetur
+                                                    ridiculus mus. Donec
+                                                    quam felis.
+                                                </p>
+                                                <a href="#" class="button is-light">View Docs</a>
+                                            </div>
+                                        </div>
+                                        <!--//card-->
+                                    </div>
+                                    <!--//col-->
+                                    <div class="column is-12 is-4-desktop is-4-tablet mb-5 mb-lg-0">
+                                        <div class="card shadow-sm">
+                                            <div class="card-content px-3 py-3 p-lg-5">
+                                                <h5 class="title">
+                                                    Subheading Two
+                                                </h5>
+                                                <p class="content">
+                                                    Lorem ipsum dolor sit
+                                                    amet, consectetuer
+                                                    adipiscing elit. Aenean
+                                                    commodo ligula eget
+                                                    dolor. Aenean massa. Cum
+                                                    sociis natoque penatibus
+                                                    et magnis dis parturient
+                                                    montes, nascetur
+                                                    ridiculus mus. Donec
+                                                    quam felis.
+                                                </p>
+                                                <a href="#" class="button is-light">View Docs</a>
+                                            </div>
+                                        </div>
+                                        <!--//card-->
+                                    </div>
+                                    <!--//col-->
+                                    <div class="column is-12 is-4-desktop is-4-tablet mb-5 mb-lg-0">
+                                        <div class="card shadow-sm">
+                                            <div class="card-content px-3 py-3 p-lg-5">
+                                                <h5 class="title">
+                                                    Subheading Three
+                                                </h5>
+                                                <p class="content">
+                                                    Lorem ipsum dolor sit
+                                                    amet, consectetuer
+                                                    adipiscing elit. Aenean
+                                                    commodo ligula eget
+                                                    dolor. Aenean massa. Cum
+                                                    sociis natoque penatibus
+                                                    et magnis dis parturient
+                                                    montes, nascetur
+                                                    ridiculus mus. Donec
+                                                    quam felis.
+                                                </p>
+                                                <a href="#" class="button is-light">View Docs</a>
+                                            </div>
+                                        </div>
+                                        <!--//card-->
+                                    </div>
+                                    <!--//col-->
+                                </div>
+                                <!--//row-->
+                            </div>
+                        </div>
+                        <!--//item-->
+                        <div class="item py-5">
+                            <h3 class="heading has-text-centered mb-4">
+                                Code Snippet Example
+                            </h3>
+                            <!--//item-intro-->
+                            <div class="item-figure mb-5 has-text-centered">
+                                <div class="code-snippet single-col-max shadow-sm mx-auto px-3 py-3 mb-4 is-rounded">
+                                    <pre class="mb-0"><code class="hljs python"><span class="hljs-meta">@requires_authorization</span>
+<span class="hljs-function"><span class="hljs-keyword">def</span> <span class="hljs-title">somefunc</span><span class="hljs-params">(param1=<span class="hljs-string">''</span>, param2=<span class="hljs-number">0</span>)</span>:</span>
+    <span class="hljs-string">r'''A docstring'''</span>
+    <span class="hljs-keyword">if</span> param1 &gt; param2: <span class="hljs-comment"># interesting</span>
+        <span class="hljs-keyword">print</span> <span class="hljs-string">'Gre\'ater'</span>
+    <span class="hljs-keyword">return</span> (param2 - param1 + <span class="hljs-number">1</span> + <span class="hljs-number">0b10l</span>) <span class="hljs-keyword">or</span> <span class="hljs-literal">None</span>
+
+<span class="hljs-class"><span class="hljs-keyword">class</span> <span class="hljs-title">SomeClass</span>:</span>
+    <span class="hljs-keyword">pass</span>
+
+<span class="hljs-meta">&gt;&gt;&gt; </span>message = <span class="hljs-string">'''interpreter
+<span class="hljs-meta">... </span>prompt'''</span>
+</code></pre>
+                                </div>
+                                <!--//code-snippet-->
+
+                                <div class="has-text-light has-text-centered figure-caption">
+                                    You can use
+                                    <a class="theme-link" href="https://highlightjs.org/" target="_blank"><i
+                                            class="fas fa-external-link-alt mx-1"></i>Highlight.js</a>
+                                    to embed code snippets
+                                </div>
+                            </div>
+                            <div class="item-content">
+                                <div class="columns">
+                                    <div class="column is-12 is-4-desktop is-4-tablet mb-5 mb-lg-0">
+                                        <div class="card shadow-sm">
+                                            <div class="card-content px-3 py-3 p-lg-5">
+                                                <h5 class="title">
+                                                    Subheading One
+                                                </h5>
+                                                <p class="content">
+                                                    Lorem ipsum dolor sit
+                                                    amet, consectetuer
+                                                    adipiscing elit. Aenean
+                                                    commodo ligula eget
+                                                    dolor. Aenean massa. Cum
+                                                    sociis natoque penatibus
+                                                    et magnis dis parturient
+                                                    montes, nascetur
+                                                    ridiculus mus. Donec
+                                                    quam felis.
+                                                </p>
+                                                <a href="#" class="button is-light">View Docs</a>
+                                            </div>
+                                        </div>
+                                        <!--//card-->
+                                    </div>
+                                    <!--//col-->
+                                    <div class="column is-12 is-4-desktop is-4-tablet mb-5 mb-lg-0">
+                                        <div class="card shadow-sm">
+                                            <div class="card-content px-3 py-3 p-lg-5">
+                                                <h5 class="title">
+                                                    Subheading Two
+                                                </h5>
+                                                <p class="content">
+                                                    Lorem ipsum dolor sit
+                                                    amet, consectetuer
+                                                    adipiscing elit. Aenean
+                                                    commodo ligula eget
+                                                    dolor. Aenean massa. Cum
+                                                    sociis natoque penatibus
+                                                    et magnis dis parturient
+                                                    montes, nascetur
+                                                    ridiculus mus. Donec
+                                                    quam felis.
+                                                </p>
+                                                <a href="#" class="button is-light">View Docs</a>
+                                            </div>
+                                        </div>
+                                        <!--//card-->
+                                    </div>
+                                    <!--//col-->
+                                    <div class="column is-12 is-4-desktop is-4-tablet mb-5 mb-lg-0">
+                                        <div class="card shadow-sm">
+                                            <div class="card-content px-3 py-3 p-lg-5">
+                                                <h5 class="title">
+                                                    Subheading Three
+                                                </h5>
+                                                <p class="content">
+                                                    Lorem ipsum dolor sit
+                                                    amet, consectetuer
+                                                    adipiscing elit. Aenean
+                                                    commodo ligula eget
+                                                    dolor. Aenean massa. Cum
+                                                    sociis natoque penatibus
+                                                    et magnis dis parturient
+                                                    montes, nascetur
+                                                    ridiculus mus. Donec
+                                                    quam felis.
+                                                </p>
+                                                <a href="#" class="button is-light">View Docs</a>
+                                            </div>
+                                        </div>
+                                        <!--//card-->
+                                    </div>
+                                    <!--//col-->
+                                </div>
+                                <!--//row-->
+                            </div>
+                        </div>
+                        <!--//item-->
+                    </div>
+                    <!--//umbrella-layout-->
+                </div>
+                <!--//feature-2-pane-->
+                <div class="tab-pane is-in is-hidden py-5 has-text-centered" id="feature-3" role="tabpanel"
+                    aria-labelledby="feature-tab-3">
+                    <div class="carousel-layout">
+                        <h3 class="heading has-text-centered mb-4">
+                            Feature Carousel Example
+                        </h3>
+                        <!--//item-intro-->
+
+                        <div id="features-carousel" class="features-carousel carousel slide tiny-slider">
+                            <div class="item active">
+                                <img class="img-fluid" src="assets/images/features/stackblitz-example-1.gif" alt="" />
+                                <div class="figure-caption has-text-centered mt-3">
+                                    Credit: the above screencast is from
+                                    <a href="https://medium.com/stackblitz-blog/google-cloud-meet-stackblitz-da13f4e4fc29"
+                                        target="_blank"><i class="fas fa-external-link-alt mx-1"></i>StackBlitz</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/images/features/stackblitz-example-2.gif" alt="" />
+                                <div class="figure-caption has-text-centered mt-3">
+                                    Credit: the above screencast is from
+                                    <a href="https://medium.com/stackblitz-blog/google-cloud-meet-stackblitz-da13f4e4fc29"
+                                        target="_blank"><i class="fas fa-external-link-alt mx-1"></i>StackBlitz</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/images/features/stackblitz-example-3.gif" alt="" />
+                                <div class="figure-caption has-text-centered mt-3">
+                                    Credit: the above screencast is from
+                                    <a href="https://medium.com/stackblitz-blog/google-cloud-meet-stackblitz-da13f4e4fc29"
+                                        target="_blank"><i class="fas fa-external-link-alt mx-1"></i>StackBlitz</a>
+                                </div>
+                            </div>
+                            <div class="item">
+                                <img class="img-fluid" src="assets/images/features/stackblitz-example-4.gif" alt="" />
+                                <div class="figure-caption has-text-centered mt-3">
+                                    Credit: the above screencast is from
+                                    <a href="https://medium.com/stackblitz-blog/google-cloud-meet-stackblitz-da13f4e4fc29"
+                                        target="_blank"><i class="fas fa-external-link-alt mx-1"></i>StackBlitz</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!--//col-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--//container-->
+    </div>
+    <!--//page-content-->
+
+    <section class="cta-section has-text-centered py-5 theme-bg-dark position-relative">
+        <div class="theme-bg-shapes-right"></div>
+        <div class="theme-bg-shapes-left"></div>
+        <div class="container">
+            <h3 class="mb-2 has-text-white mb-3">Get Started in No Time</h3>
+            <div class="section-intro has-text-white mb-3 single-col-max mx-auto">
+                Nano Green makes it super easy to get your software project
+                online, so you can start promoting or selling your digital
+                product to your audience.
+            </div>
+            <div class="pt-3 has-text-centered">
+                <a class="button is-light" href="#">Get Started<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--//cta-section-->
+
+    <footer class="footer">
+        <div class="container py-5 mb-3">
+            <div class="columns">
+                <div class="footer-col column">
+                    <h4 class="col-heading">Products</h4>
+                    <ul class="">
+                        <li><a href="#">Bootstrap Themes</a></li>
+                        <li><a href="#">Design Templates</a></li>
+                        <li><a href="#">Live Demo</a></li>
+                        <li><a href="#">Showcase</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col column">
+                    <h4 class="col-heading">Developers</h4>
+                    <ul class="">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">APIs</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
+                <!--//footer-col-->
+                <div class="footer-col column">
+                    <h4 class="col-heading">Resources</h4>
+                    <ul class="">
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Freebies</a></li>
+                        <li><a href="#">Affliates</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <!--//footer-col-->
+                <div class="footer-col column">
+                    <h4 class="col-heading">Nano Green</h4>
+                    <ul class="">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                    </ul>
+                </div>
+                <!--//footer-col-->
+            </div>
+        </div>
+        <!--//row-->
+        <!--//container-->
+        <div class="container">
+            <hr />
+        </div>
+        <div class="newsletter-section py-5">
+            <div class="container has-text-centered">
+                <h4 class="mb-2">Join Our Newsletter</h4>
+                <div class="section-intro mb-2">
+                    Sign up to receive latest updates, features, and news!
+                </div>
+                <div class="columns">
+                    <form class="signup-form pt-3 is-centered mx-auto column is-12">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <label class="sr-only" for="semail">Email address</label>
+                                <input type="email" id="semail" name="semail1" class="input semail"
+                                    placeholder="Enter email" />
+                            </div>
+                            <div class="control">
+                                <button type="submit" class="button is-primary ">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--//newsletter-section-->
+        <div class="footer-bottom has-text-centered pb-5">
+            <small class="copyright">Template Copyright &copy;
+                <a href="https://nalabdou.com" class="has-text-primary-dark" target="_blank">nalabdou</a></small>
+            <ul class="social-list  pt-4 mb-0">
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-github fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-slack fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-product-hunt fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-instagram fa-fw"></i></a>
+                </li>
+            </ul>
+            <!--//social-list-->
+        </div>
+        <div class="has-text-centered">
+            <img src="https://bulma.io/images/made-with-bulma--black.png" alt="">
+        </div>
+    </footer>
+
+
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+
+    <!-- Page Specific JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js"></script>
+    <script src="assets/js/highlight-custom.js"></script>
+    <script src="assets/plugins/tiny-slider/min/tiny-slider.js"></script>
+    <script src="assets/js/tinyslider-custom.js"></script>
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

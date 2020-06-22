@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Nano Green - bulma Template For Software Projects</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="bulma Template For Software Startups">
+    <meta name="author" content="nalabdou">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&display=swap" rel="stylesheet">
+
+    <!-- FontAwesome JS-->
+    <script defer src="assets/fontawesome/js/all.min.js"></script>
+
+    <!-- Theme CSS -->
+    <link rel="stylesheet" href="assets/css/bulma.min.css">
+    <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+
+</head>
+
+<body>
+    <header class="header mx-0">
+        <nav class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item" href="index.html">
+                    <img src="assets/images/site-logo.svg" width="112" height="28" />
+                </a>
+
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+                    data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
+            </div>
+
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a class="navbar-item" href="features.html">Features</a>
+                    <a class="navbar-item" href="pricing.html">Pricing</a>
+
+                    <div class="navbar-item has-dropdown is-hoverable">
+                        <a class="navbar-link">
+                            Docs
+                        </a>
+
+                        <div class="navbar-dropdown">
+                            <a class="navbar-item dropdown-item has-icon" href="docs.html">
+                                <span class="theme-icon-holder">
+                                    <i class="fas fa-home fa-fw"></i>
+                                </span>
+                                Docs Home
+                            </a>
+
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-1">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-map-signs fa-fw"></i> </span>Introduction
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-2">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-arrow-down fa-fw"></i> </span>Installation
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-3">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-box fa-fw"></i> </span>APIs
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-4">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-cogs fa-fw"></i> </span>Integrations
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-5">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-tools fa-fw"></i> </span>Utilities
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-6">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-laptop-code fa-fw"></i> </span>Web
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-7">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-tablet-alt fa-fw"></i> </span>Mobile
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-8">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-book-reader fa-fw"></i> </span>Resources
+                            </a>
+                            <a class="navbar-item dropdown-item has-icon" href="docs-page.html#section-9">
+                                <span class="theme-icon-holder mr-2">
+                                    <i class="fas fa-lightbulb fa-fw"></i> </span>FAQs
+                            </a>
+                        </div>
+                    </div>
+                    <a class="navbar-item" href="contact.html">Contact</a>
+                </div>
+
+                <div class="navbar-end">
+                    <div class="navbar-item">
+                        <div class="buttons">
+                            <a class="button is-primary" href="signup.html">
+                                <strong>Sign up</strong>
+                            </a>
+                            <a class="button is-light" href="login.html">
+                                Log in
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--//header-->
+
+
+    <div class="page-header theme-bg-dark py-5 has-text-centered position-relative">
+        <div class="theme-bg-shapes-right"></div>
+        <div class="theme-bg-shapes-left"></div>
+        <div class="container">
+            <h1 class="page-heading single-col-max mx-auto">Documentation</h1>
+            <div class="page-intro single-col-max mx-auto">Everything you need to get your software documentation
+                online.</div>
+            <div class="main-search-box pt-3 d-block mx-auto">
+                <form class="search-form is-fullwidth">
+                    <input type="text" placeholder="Search the docs..." name="search" class="input search-input">
+                    <button type="submit" class="button pt-0 search-btn" value="Search"><i
+                            class="fas fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--//page-header-->
+    <div class="page-content">
+        <div class="container">
+            <div class="docs-overview py-5">
+                <div class="columns is-centered">
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-map-signs"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Introduction</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Lorem ipsum dolor sit amet, consectetuer adipiscing
+                                    elit. Aenean commodo ligula eget dolor.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-1"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-arrow-down"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Installation</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Donec pede justo, fringilla vel, aliquet nec, vulputate
+                                    eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-2"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-box fa-fw"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">APIs</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-3"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+
+                </div>
+                <div class="columns">
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-cogs fa-fw"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Integrations</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-4"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-tools"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Utilities</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-5"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-laptop-code"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Web</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-6"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                </div>
+                <div class="columns">
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-tablet-alt"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Mobile</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-7"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-book-reader"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">Resources</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-8"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                    <div class="column is-12 is-4-desktop is-4-tablet py-3">
+                        <div class="card shadow-sm">
+                            <div class="card-content">
+                                <h5 class="title mb-3">
+                                    <span class="theme-icon-holder card-icon-holder mr-2">
+                                        <i class="fas fa-lightbulb"></i>
+                                    </span>
+                                    <!--//card-icon-holder-->
+                                    <span class="subtitle">FAQs</span>
+                                </h5>
+                                <div class="content">
+                                    Section overview goes here. Aliquam lorem ante, dapibus in, viverra quis, feugiat a,
+                                    tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean
+                                    imperdiet.
+                                </div>
+                                <a class="card-link-mask" href="docs-page.html#section-9"></a>
+                            </div>
+                            <!--//card-content-->
+                        </div>
+                        <!--//card-->
+                    </div>
+                    <!--//col-->
+                </div>
+                <!--//row-->
+            </div>
+            <!--//container-->
+        </div>
+        <!--//container-->
+    </div>
+    <!--//page-content-->
+
+
+    <section class="cta-section has-text-centered py-5 has-background-primary position-relative">
+        <div class="theme-bg-shapes-right"></div>
+        <div class="theme-bg-shapes-left"></div>
+        <div class="container">
+            <h3 class="mb-2 has-text-white mb-3">Get Started in No Time</h3>
+            <div class="section-intro has-text-white mb-3 single-col-max mx-auto">
+                Nano Green makes it super easy to get your software project
+                online, so you can start promoting or selling your digital
+                product to your audience.
+            </div>
+            <div class="pt-3 has-text-centered">
+                <a class="button is-light" href="#">Get
+                    Started<i class="fas fa-arrow-alt-circle-right ml-2"></i></a>
+            </div>
+        </div>
+    </section>
+    <!--//cta-section-->
+
+    <footer class="footer">
+        <div class="container py-5 mb-3">
+            <div class="columns">
+                <div class="footer-col column">
+                    <h4 class="col-heading">Products</h4>
+                    <ul class="">
+                        <li><a href="#">Bootstrap Themes</a></li>
+                        <li><a href="#">Design Templates</a></li>
+                        <li><a href="#">Live Demo</a></li>
+                        <li><a href="#">Showcase</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col column">
+                    <h4 class="col-heading">Developers</h4>
+                    <ul class="">
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">APIs</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                    </ul>
+                </div>
+
+                <!--//footer-col-->
+                <div class="footer-col column">
+                    <h4 class="col-heading">Resources</h4>
+                    <ul class="">
+                        <li><a href="#">Docs</a></li>
+                        <li><a href="#">Freebies</a></li>
+                        <li><a href="#">Affliates</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+                <!--//footer-col-->
+                <div class="footer-col column">
+                    <h4 class="col-heading">Nano Green</h4>
+                    <ul class="">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms of Services</a></li>
+                    </ul>
+                </div>
+                <!--//footer-col-->
+            </div>
+        </div>
+        <!--//row-->
+        <!--//container-->
+        <div class="container">
+            <hr />
+        </div>
+        <div class="newsletter-section py-5">
+            <div class="container has-text-centered">
+                <h4 class="mb-2">Join Our Newsletter</h4>
+                <div class="section-intro mb-2">
+                    Sign up to receive latest updates, features, and news!
+                </div>
+                <div class="columns">
+                    <form class="signup-form pt-3 is-centered mx-auto column is-12">
+                        <div class="field has-addons">
+                            <div class="control">
+                                <label class="sr-only" for="semail">Email address</label>
+                                <input type="email" id="semail" name="semail1" class="input semail"
+                                    placeholder="Enter email" />
+                            </div>
+                            <div class="control">
+                                <button type="submit" class="button is-primary ">
+                                    Sign Up
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--//newsletter-section-->
+        <div class="footer-bottom has-text-centered pb-5">
+            <small class="copyright">Template Copyright &copy;
+                <a href="https://nalabdou.com" class="has-text-primary-dark" target="_blank">nalabdou</a></small>
+            <ul class="social-list  pt-4 mb-0">
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-github fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-twitter fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-slack fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-product-hunt fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-facebook-f fa-fw"></i></a>
+                </li>
+                <li class="is-inline">
+                    <a href="#"><i class="fab fa-instagram fa-fw"></i></a>
+                </li>
+            </ul>
+            <!--//social-list-->
+        </div>
+        <div class="has-text-centered">
+            <img src="https://bulma.io/images/made-with-bulma--black.png" alt="">
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="assets/plugins/jquery-3.4.1.min.js"></script>
+    <script src="assets/plugins/popper.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="300px" height="300px" viewBox="0 0 300 300" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="91.8666124%" y1="40.3276956%" x2="28.2635218%" y2="81.6596195%" id="linearGradient-1">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="8.70980871%" y1="59.1664468%" x2="72.2425722%" y2="17.9899763%" id="linearGradient-2">
+            <stop stop-color="#0052CC" offset="18%"></stop>
+            <stop stop-color="#2684FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="app-logo">
+            <g id="Group-15" transform="translate(45.000000, 42.000000)">
+                <path d="M205.459459,101.481081 L112.945946,8.96756757 L103.978378,1.0658141e-13 L34.3378378,69.6405405 L2.4972973,101.481081 C-0.822443751,104.804956 -0.822443751,110.189639 2.4972973,113.513514 L66.1216216,177.137838 L103.978378,214.994595 L173.618919,145.354054 L174.697297,144.275676 L205.459459,113.513514 C208.779201,110.189639 208.779201,104.804956 205.459459,101.481081 Z M103.978378,139.281081 L72.1945946,107.497297 L103.978378,75.7135135 L135.762162,107.497297 L103.978378,139.281081 Z" id="Shape" fill="#2684FF" fill-rule="nonzero"></path>
+                <path d="M103.978378,75.7135135 C83.1687356,54.9014123 83.0673168,21.1923465 103.751351,0.255405405 L34.1959459,69.7824324 L72.0527027,107.639189 L103.978378,75.7135135 Z" id="Path" fill="url(#linearGradient-1)"></path>
+                <path d="M135.847297,107.412162 L103.978378,139.281081 C114.022516,149.319246 119.665757,162.937505 119.665757,177.137838 C119.665757,191.338171 114.022516,204.95643 103.978378,214.994595 L173.704054,145.268919 L135.847297,107.412162 Z" id="Jira-icon" fill="url(#linearGradient-2)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
